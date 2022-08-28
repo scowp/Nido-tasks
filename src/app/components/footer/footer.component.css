@@ -1,0 +1,28 @@
+footer {
+    background-color: white;
+    padding: 60px 0px;
+    border-top: solid 2px white;
+}
+
+h4 {
+    text-align: center;
+    color: #2f2e41;
+}
+
+a {
+    color: #6ec1e4;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:link {
+    color: #6ec1e4;
+ }
+
+ a:visited {
+     color: #6ec1e4;
+ }
+
+ a:active {
+     color: #6ec1e4;
+ }

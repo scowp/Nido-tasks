@@ -1,0 +1,25 @@
+.button {
+    width: 150px;
+    font-size: 20px
+}
+
+.button-primary {
+    background-color: #6ec1e4;
+    border: #6ec1e4;
+}
+
+.button-primary:hover {
+    background-color: #5697b3;
+    border: #5697b3;
+}
+
+#slider {
+    background: url(../../../assets/images/slider-bg.png) no-repeat center bottom;
+    background-size: contain;
+    margin-bottom: 100px;
+}
+
+#slider h1 {
+    color: #2f2e41;
+    font-weight: 700;
+}
