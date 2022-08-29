@@ -1,0 +1,10 @@
+#remove {
+    padding: 1px 5px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#remove img {
+    width: 10px;
+}

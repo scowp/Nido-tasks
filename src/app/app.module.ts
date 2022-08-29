@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { CrudComponent } from './components/crud/crud.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { MainComponent } from './components/pages/main/main.component';
+import { FormGroup, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     SliderComponent,
     CrudComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
