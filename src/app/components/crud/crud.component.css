@@ -11,7 +11,7 @@
     color: white;
     text-transform: uppercase;
     letter-spacing: 40px;
-
+    margin-right: -40px;
 }
 
 .cards-container {
