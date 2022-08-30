@@ -1,19 +1,19 @@
 <div class="container">
-    <h1>To-Do List</h1>
-    <div class="input-group mb-3">
-        <input type="text" id="form" class="form-control" placeholder="Digite sua Tarefa..." aria-label="Recipient's username" aria-describedby="basic-addon2" [(ngModel)]="tarefa">
-        <div class="input-group-append">
-          <button class="btn btn-outline-primary" type="button" (click)="addTarefa()">Add Task</button>
+    <div class="list-area">
+      <h1>To-Do List</h1>
+      <div class="input-group mb-3">
+          <input type="text" id="form" class="form-control" placeholder="Digite sua Tarefa..." aria-label="Recipient's username" aria-describedby="basic-addon2" [(ngModel)]="tarefa">
+          <div class="input-group-append">
+            <button class="btn btn-outline-primary" type="button" (click)="addTarefa()">Add Task</button>
+          </div>
         </div>
-      </div>
-
-
-    <ul class="list-group">
-        <li class="list-group-item" *ngFor="let item of items">{{ item }}
-            <a id="remove" (click)="removeTarefa(item)"><img  src="../../../../assets/images/letra-x.png"></a>
-        </li>
-        <li class="list-group-item list-group-item-light">{{tarefa}}</li>
-    </ul>
+      <ul class="list-group">
+          <li class="list-group-item" *ngFor="let item of items">{{ item }}
+              <a id="remove" (click)="removeTarefa(item)"><img  src="../../../../assets/images/letra-x.png"></a>
+          </li>
+          <li class="list-group-item list-group-item-light">{{tarefa}}</li>
+      </ul>
+    </div>
 
 
 </div>
